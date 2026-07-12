@@ -53,12 +53,13 @@ Interested in defense, robotics, and anything with a hardware layer that's actua
 
 | Project | What it is | Target |
 |---|---|---|
-| **Rayborn** | JS/Canvas port of the raycaster above, running live in browser | Jun 2026 |
-| **NoorMap** | Real-time disaster and weather map for Syria, built on NASA EONET/FIRMS and Open-Meteo, aimed at eventual handoff to the Syrian government | Jun 2026 |
-| **Gravitas** | Three.js portfolio site with three separate paths depending on who's reading it, systems, game/creative tech, or startup, Portal-inspired, no narration, the demos do the talking | Jul 2026 |
-| **NullShell** | A POSIX-ish shell written in C++ from scratch | Aug 2026 |
-| **Genesis** | Chapter one of a from-scratch SDL2 engine | Aug 2026 |
-| **Principia** | Open-source physics sandbox in C++/JS for IE's physics department, gravity, orbits, projectile motion, sliders instead of equations | Feb 2027 |
+| **Ballista** | Monte Carlo ballistic trajectory simulator in C++, atmospheric drag modeled across thousands of perturbed runs | Jul 2026 |
+| **Rayborn** | JS/Canvas port of the raycaster above, running live in browser | Aug 2026 |
+| **NoorMap** | Real-time disaster and weather map for Syria, built on NASA EONET/FIRMS and Open-Meteo, aimed at eventual handoff to the Syrian government | Aug 2026 |
+| **Gravitas** | Three.js portfolio site with three separate paths depending on who's reading it, systems, game/creative tech, or startup, Portal-inspired, no narration, the demos do the talking | Sep 2026 |
+| **NullShell** | A POSIX-ish shell written in C++ from scratch | Oct 2026 |
+| **Genesis** | Chapter one of a from-scratch SDL2 engine | Oct 2026 |
+| **Principia** | Open-source physics sandbox in C++/JS for IE's physics department, gravity, orbits, projectile motion, sliders instead of equations | Mar 2027 |
 
 <br>
 
@@ -66,8 +67,8 @@ Interested in defense, robotics, and anything with a hardware layer that's actua
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YousefAliAicha&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=94a3b8&icon_color=94a3b8&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=YousefAliAicha&theme=dark&hide_border=true&background=0d1117&stroke=0d1117&ring=94a3b8&fire=94a3b8&currStreakLabel=94a3b8" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=YousefAliAicha&show_icons=true&theme=dark" />
+<img height="165" src="https://streak-stats.demolab.com?user=YousefAliAicha&theme=dark" />
 
 </div>
 
