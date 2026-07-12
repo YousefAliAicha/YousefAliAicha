@@ -67,10 +67,6 @@ Interested in defense, robotics, and anything with a hardware layer that's actua
 
 <div align="center">
 
-<img width="480" src="https://github-readme-stats.vercel.app/api?username=YousefAliAicha&show_icons=true&theme=dark&hide_border=true" />
-
-<br>
-
 <img width="480" src="https://streak-stats.demolab.com?user=YousefAliAicha&theme=dark&hide_border=true" />
 
 </div>
