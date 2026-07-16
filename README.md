@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=200&section=header&text=Yousef%20Ali%20Aicha&fontSize=42&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Systems%20%2F%20Embedded%20%2F%20ML%20Engineering&descAlignY=58&descSize=18&descColor=94a3b8" />
 
-<a href="https://www.linkedin.com/in/yousefaliaicha" target="_blank">
+<a 
   <img src="https://readme-typing-svg.demolab.com/?lines=Embedded+Systems+%26+Firmware;Simulation+%26+Monte+Carlo+Methods;Machine+Learning+%2F+ML+Systems;Hardware-Software+Integration&font=Fira+Code&center=true&width=600&height=40&color=94A3B8&vCenter=true&size=18&pause=1800" />
 </a>
 
