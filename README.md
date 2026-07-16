@@ -44,6 +44,7 @@ Interested in defense, robotics, and anything with a hardware layer that's actua
 | **[SENTINEL](https://github.com/YousefAliAicha/sentinel-arduino-firmware)** | A traffic-light controller on bare ATmega328P, no libraries. Full FSM with pedestrian preemption, a shift-register 7-segment countdown, and a night mode that reads ambient light and holds green longer if a car is idling at an empty junction. Own PCB, own footprint for the touch sensor.                           |
 | **[Raycaster-Engine](https://github.com/YousefAliAicha/Raycaster-Engine)**  | A Wolfenstein-style 3D engine in plain Python, NumPy and tkinter only. Vectorized DDA ray marching, textured floors and ceilings, z-buffer sprite occlusion, distance fog, a hand-rolled sine head-bob. Ships with an annotated notebook walking through the whole render loop.                                          |
 | **[Splice-Engine](https://github.com/YousefAliAicha/splice-engine)**        | A movie recommender on MovieLens. New users get popularity rankings, thin histories get item-based KNN, established users get a stacked LightGBM ensemble blending five collaborative-filtering models. Streamlit dashboard with a real feedback loop to check whether the expensive model actually beats the cheap one. |
+| **[Ballista](https://github.com/YousefAliAicha/ballista)**  | A Monte Carlo ballistic trajectory simulator in C++ with RK4 integration, Mach-dependent drag, and CEP dispersion analysis, validated against closed-form solutions and stable across 100 independent seeds.                                          |
 
 <br>
 
@@ -51,7 +52,6 @@ Interested in defense, robotics, and anything with a hardware layer that's actua
 
 | Project       | What it is                                                                                                                                                                        | Target   |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| **Ballista**  | Monte Carlo ballistic trajectory simulator in C++, atmospheric drag modeled across thousands of perturbed runs                                                                    | Jul 2026 |
 | **Rayborn**   | JS/Canvas port of the raycaster above, running live in browser                                                                                                                    | Aug 2026 |
 | **NoorMap**   | Real-time disaster and weather map for Syria, built on NASA EONET/FIRMS and Open-Meteo, aimed at eventual handoff to the Syrian government                                        | Aug 2026 |
 | **Gravitas**  | Three.js portfolio site with three separate paths depending on who's reading it, systems, game/creative tech, or startup, Portal-inspired, no narration, the demos do the talking | Sep 2026 |
