@@ -10,9 +10,10 @@
 
 ## About
 
-CSAI student at IE University, second year. I mostly work on embedded systems, simulation, and ML, usually all three in the same project: a PCB and firmware on one end, a model or dashboard on the other.
-
-Interested in defense, robotics, and anything with a hardware layer that's actually hard to build.
+CSAI student at IE University, second year. I build systems where a PCB
+and firmware on one end feed a model or dashboard on the other — usually
+in the same project. Interested in defense, robotics, and simulation work
+where the hardware layer is the hard part.
 
 <br>
 
@@ -36,28 +37,35 @@ Interested in defense, robotics, and anything with a hardware layer that's actua
 
 <br>
 
-## Projects
+## Flagship projects
 
-| Project                                                                     | Description                                                                                                                                                                                                                                                                                                              |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **[AEGIS](https://github.com/YousefAliAicha/aegis-embedded-system)**        | Rotating radar on an ESP32-S3. A servo sweeps an ultrasonic sensor across 180°, streaming distance data over WebSocket to a mission-control dashboard served straight from the board's own flash, no external server. Click-to-steer, custom threat perimeters, a sonar audio engine, and a KiCad PCB.                   |
-| **[SENTINEL](https://github.com/YousefAliAicha/sentinel-arduino-firmware)** | A traffic-light controller on bare ATmega328P, no libraries. Full FSM with pedestrian preemption, a shift-register 7-segment countdown, and a night mode that reads ambient light and holds green longer if a car is idling at an empty junction. Own PCB, own footprint for the touch sensor.                           |
-| **[Raycaster-Engine](https://github.com/YousefAliAicha/Raycaster-Engine)**  | A Wolfenstein-style 3D engine in plain Python, NumPy and tkinter only. Vectorized DDA ray marching, textured floors and ceilings, z-buffer sprite occlusion, distance fog, a hand-rolled sine head-bob. Ships with an annotated notebook walking through the whole render loop.                                          |
-| **[Splice-Engine](https://github.com/YousefAliAicha/splice-engine)**        | A movie recommender on MovieLens. New users get popularity rankings, thin histories get item-based KNN, established users get a stacked LightGBM ensemble blending five collaborative-filtering models. Streamlit dashboard with a real feedback loop to check whether the expensive model actually beats the cheap one. |
-| **[Ballista](https://github.com/YousefAliAicha/ballista)**  | A Monte Carlo ballistic trajectory simulator in C++ with RK4 integration, Mach-dependent drag, and CEP dispersion analysis, validated against closed-form solutions and stable across 100 independent seeds.                                          |
+| Project | What it is |
+| --- | --- |
+| **[Ballista](https://github.com/YousefAliAicha/ballista)** | C++17 Monte Carlo ballistics sim — RK4 integration, Mach-dependent drag, altitude-coupled wind. Validated against closed-form solutions (0.00000m error on zero-drag range, RK4 convergence ratio 16.01 vs theoretical 16×) and stress-tested across 100 independent RNG seeds (CEP std dev 1.48% of mean). |
+| **[AEGIS](https://github.com/YousefAliAicha/aegis-embedded-system)** | ESP32-S3 rotating ultrasonic radar. Custom KiCad PCB, non-blocking firmware, dashboard served from the board's own flash with WebSocket telemetry and click-to-steer control. Falls back to local-only operation if Wi-Fi drops — the sensing loop never depends on the network. |
+| **[Raycaster-Engine](https://github.com/YousefAliAicha/Raycaster-Engine)** + **[Rayborn](https://github.com/YousefAliAicha/Rayborn)** | Wolfenstein-style 2.5D engine, twice: first vectorized in Python/NumPy (32 headless tests, hand-rolled Taylor-series trig with two documented and regression-tested bug fixes), then rewritten — not ported — in zero-dependency JavaScript/Canvas for real-time browser play. |
+
+<br>
+
+## Other projects
+
+| Project | Description |
+| --- | --- |
+| **[SENTINEL](https://github.com/YousefAliAicha/sentinel-arduino-firmware)** | Bare ATmega328P traffic-light FSM, zero libraries. Pedestrian preemption, LDR-gated night mode with vehicle detection, 74HC595-driven 7-segment countdown, no `delay()` in the main loop. Own KiCad PCB. |
+| **[Splice-Engine](https://github.com/YousefAliAicha/splice-engine)** | MovieLens recommender: cold-start genre scoring → item-KNN → stacked LightGBM ensemble, hybridized with FAISS content embeddings. SVD++ was implemented, benchmarked, and dropped after it underperformed simpler tiers. Test RMSE 0.90 (100k) / 0.85 (1M). Streamlit dashboard with a live feedback loop. |
+| **[GRAVITAS](https://yousefaliaicha.github.io/GRAVITAS/)** | Portfolio site — three recruiter-facing tracks (Systems / Creative Tech / Startup), Three.js excavation-themed landing scene, single-source project data model driving tracks, archive, and routing. |
 
 <br>
 
 ## Currently building
 
-| Project       | What it is                                                                                                                                                                        | Target   |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| **Rayborn**   | JS/Canvas port of the raycaster above, running live in browser                                                                                                                    | Aug 2026 |
-| **NoorMap**   | Real-time disaster and weather map for Syria, built on NASA EONET/FIRMS and Open-Meteo, aimed at eventual handoff to the Syrian government                                        | Aug 2026 |
-| **Gravitas**  | Three.js portfolio site with three separate paths depending on who's reading it, systems, game/creative tech, or startup, Portal-inspired, no narration, the demos do the talking | Sep 2026 |
-| **NullShell** | A POSIX-ish shell written in C++ from scratch                                                                                                                                     | Oct 2026 |
-| **Genesis**   | Chapter one of a from-scratch SDL2 engine                                                                                                                                         | Oct 2026 |
-| **Principia** | Open-source physics sandbox in C++/JS for IE's physics department, gravity, orbits, projectile motion, sliders instead of equations                                               | Mar 2027 |
+| Project | What it is | Target |
+| --- | --- | --- |
+| **NoorMap** | Real-time disaster/weather map for Syria on NASA EONET/FIRMS feeds — scoped for eventual handoff to a non-technical stakeholder, documentation-first | Aug 2026 |
+| **Principia** | Interactive classical mechanics sandbox for IE's physics department — forces/motion/energy as live adjustable parameters | 2026 |
+| **Predictive Object Tracking** | ESP32 dual-stream (camera + IMU) feeding a Kalman-filtered YOLOv8n tracker — IMU angular rates compensate the prediction step so tracks survive platform motion | 2026 |
+| **NullShell** | POSIX shell/REPL in C++ from scratch — fork/exec, pipes, job control | TBD |
+| **Genesis** | SDL2 engine scaffold — window, render loop, input | TBD |
 
 <br>
 
