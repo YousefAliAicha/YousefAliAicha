@@ -10,7 +10,7 @@
 
 ## About
 
-CSAI student at IE University, second year. I build systems where a PCB
+Yousef Ali Aicha — CSAI student at IE University, second year. I build systems where a PCB
 and firmware on one end feed a model or dashboard on the other — usually
 in the same project. Interested in defense, robotics, and simulation work
 where the hardware layer is the hard part.
