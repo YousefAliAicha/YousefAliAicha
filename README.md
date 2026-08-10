@@ -53,7 +53,7 @@ where the hardware layer is the hard part.
 | --- | --- |
 | **[SENTINEL](https://github.com/YousefAliAicha/sentinel-arduino-firmware)** | Bare ATmega328P traffic-light FSM, zero libraries. Pedestrian preemption, LDR-gated night mode with vehicle detection, 74HC595-driven 7-segment countdown, no `delay()` in the main loop. Own KiCad PCB. |
 | **[Splice-Engine](https://github.com/YousefAliAicha/splice-engine)** | MovieLens recommender: cold-start genre scoring → item-KNN → stacked LightGBM ensemble, hybridized with FAISS content embeddings. SVD++ was implemented, benchmarked, and dropped after it underperformed simpler tiers. Test RMSE 0.90 (100k) / 0.85 (1M). Streamlit dashboard with a live feedback loop. |
-| **[GRAVITAS](https://yousefaliaicha.github.io/GRAVITAS/)** | Portfolio site — three recruiter-facing tracks (Systems / Creative Tech / Startup), Three.js excavation-themed landing scene, single-source project data model driving tracks, archive, and routing. |
+| **[GRAVITAS](https://yousefaliaicha.me/)** | Portfolio site — three recruiter-facing tracks (Systems / Creative Tech / Startup), Three.js excavation-themed landing scene, single-source project data model driving tracks, archive, and routing. |
 
 <br>
 
